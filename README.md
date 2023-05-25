@@ -27,4 +27,4 @@ This is my take on porting some variations of the nice [Kaolin themes](https://g
 
 <hr>
 
-Original themes: 
+Original themes: https://github.com/ogdenwebb/emacs-kaolin-themes/wiki
