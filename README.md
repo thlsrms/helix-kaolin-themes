@@ -1,5 +1,5 @@
 # Kaolin themes for the Helix Editor
-This is my take on porting some variations of the nice [Kaolin themes](https://github.com/ogdenwebb/emacs-kaolin-themes) to Helix.
+This is my take on porting some variations of the nice [Kaolin themes](https://github.com/ogdenwebb/emacs-kaolin-themes) to use with [Helix](https://github.com/helix-editor/helix).
 
 
 ### Variations
@@ -24,3 +24,7 @@ This is my take on porting some variations of the nice [Kaolin themes](https://g
   
   ![dark-theme](imgs/kaolin-valley-dark.png)
 </details>
+
+<hr>
+
+Original themes: 
