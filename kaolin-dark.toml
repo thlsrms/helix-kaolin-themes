@@ -69,7 +69,7 @@
 "ui.menu" = { fg = "white1", bg = "black2" }
 "ui.menu.selected" = { fg = "aquamarine3", bg = "black4", modifiers = ["bold"] }
 "ui.virtual.wrap" = "black4"
-"ui.virtual.whitespace" = "black4"
+"ui.virtual.whitespace" = "white4"
 "ui.virtual.indent-guide" = "black4"
 "ui.virtual.ruler" = { bg = "black2" }
 "ui.virtual.inlay-hint" = "gray9"
