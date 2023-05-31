@@ -49,6 +49,9 @@
 "ui.linenr" = { fg = "valley-dark-comment" }
 "ui.linenr.selected" = { fg = "amber1", modifiers = ["bold"] }
 "ui.cursorline" = { bg = "valley-dark-bg2" }
+"ui.cursorline.secondary" = { bg = "valley-dark-bg4" }
+"ui.cursorcolumn.primary" = { bg = "valley-dark-bg2" }
+"ui.cursorcolumn.secondary" = { bg = "valley-dark-bg4" }
 "ui.statusline" = { fg = "amber9", bg = "valley-dark-bg2" }
 "ui.statusline.normal" = { fg = "amber1", bg = "valley-dark-bg2", modifiers = ["bold"] }
 "ui.statusline.insert" = { fg = "cyan3", bg = "valley-dark-bg2", modifiers = ["bold"] }
@@ -65,11 +68,15 @@
 "ui.cursor.match" = { fg = "valley-dark-bg1", bg = "vermilion3" }
 "ui.menu" = { fg = "magenta3", bg = "valley-dark-bg2" }
 "ui.menu.selected" = { fg = "vermilion3", bg = "valley-dark-bg2", modifiers = ["bold"] }
+"ui.virtual.wrap" = "brown2"
 "ui.virtual.whitespace" = "brown2"
+"ui.virtual.indent-guide" = "brown2"
 "ui.virtual.ruler" = { bg = "valley-dark-bg4" }
 "ui.virtual.inlay-hint" = "valley-dark-comment"
 "ui.virtual.inlay-hint.parameter" = { fg = "valley-dark-comment", modifiers = ["italic"] }
 "ui.virtual.inlay-hint.type" = { fg = "valley-dark-comment", modifiers = ["italic"] }
+"ui.debug.breakpoint" = "red3"
+"ui.debug.active" = "amber1"
 
 "markup.heading" = "amber3"
 "markup.bold" = { modifiers = ["bold"] }

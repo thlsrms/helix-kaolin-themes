@@ -49,6 +49,9 @@
 "ui.linenr" = { fg = "gray7" }
 "ui.linenr.selected" = { fg = "green2", modifiers = ["bold"] }
 "ui.cursorline" = { bg = "kaolin-light-bg2" }
+"ui.cursorline.secondary" = { bg = "kaolin-light-bg3" }
+"ui.cursorcolumn.primary" = { bg = "kaolin-light-bg2" }
+"ui.cursorcolumn.secondary" = { bg = "kaolin-light-bg3" }
 "ui.statusline" = { fg = "azure4", bg = "kaolin-light-bg2" }
 "ui.statusline.normal" = { fg = "teal2", bg = "kaolin-light-bg2", modifiers = ["bold"] }
 "ui.statusline.insert" = { fg = "orange1", bg = "kaolin-light-bg2", modifiers = ["reversed", "bold"] }
@@ -65,11 +68,15 @@
 "ui.cursor.match" = { fg = "white4", bg = "gray7" }
 "ui.menu" = { fg = "gray1", bg = "kaolin-light-bg2" }
 "ui.menu.selected" = { fg = "green2", bg = "kaolin-light-bg3", modifiers = ["bold"] }
+"ui.virtual.wrap" = "white4"
 "ui.virtual.whitespace" = "white4"
+"ui.virtual.indent-guide" = "white4"
 "ui.virtual.ruler" = { bg = "kaolin-light-bg2" }
 "ui.virtual.inlay-hint" = "gray7"
 "ui.virtual.inlay-hint.parameter" = { fg = "gray7", modifiers = ["italic"] }
 "ui.virtual.inlay-hint.type" = { fg = "gray7", modifiers = ["italic"] }
+"ui.debug.breakpoint" = "red3"
+"ui.debug.active" = "orange1"
 
 
 "markup.heading" = { fg = "ultramarine1", modifiers = ["bold"] }

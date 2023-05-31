@@ -49,6 +49,9 @@
 "ui.linenr" = { fg = "gray3" }
 "ui.linenr.selected" = { fg = "gray9", modifiers = ["bold"] }
 "ui.cursorline" = { bg = "black2" }
+"ui.cursorline.secondary" = { bg = "black4" }
+"ui.cursorcolumn.primary" = { bg = "black2" }
+"ui.cursorcolumn.secondary" = { bg = "black4" }
 "ui.statusline" = { fg = "teal4", bg = "black2" }
 "ui.statusline.normal" = { fg = "teal1", bg = "black2", modifiers = ["reversed", "bold"] }
 "ui.statusline.insert" = { fg = "spring-green3", bg = "black2", modifiers = ["reversed", "bold"] }
@@ -65,11 +68,15 @@
 "ui.cursor.match" = { fg = "black2", bg = "ultramarine4_dark" }
 "ui.menu" = { fg = "white1", bg = "black2" }
 "ui.menu.selected" = { fg = "aquamarine3", bg = "black4", modifiers = ["bold"] }
+"ui.virtual.wrap" = "black4"
 "ui.virtual.whitespace" = "black4"
+"ui.virtual.indent-guide" = "black4"
 "ui.virtual.ruler" = { bg = "black2" }
 "ui.virtual.inlay-hint" = "gray9"
 "ui.virtual.inlay-hint.parameter" = { fg = "gray9", modifiers = ["dim"] }
 "ui.virtual.inlay-hint.type" = { fg = "gray9", modifiers = ["dim"] }
+"ui.debug.breakpoint" = "red1"
+"ui.debug.active" = "orange1"
 
 "markup.heading" = "teal4"
 "markup.bold" = { modifiers = ["bold"] }
